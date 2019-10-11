@@ -15,3 +15,6 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 	id: 'mapbox.streets',
 	accessToken: 'pk.eyJ1IjoibmlzZmUiLCJhIjoiY2sxamptb3E0MXVkZTNjcW0zenFidDZtYiJ9.33EJv9nydb1e8lE8erN3lg'
 }).addTo(sriLanka);
+
+// Adding a marker to the map
+let mapPoint = L.marker([51.5, -0.09]).addTo(mapID);
