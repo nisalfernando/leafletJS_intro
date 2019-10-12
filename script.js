@@ -17,7 +17,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 }).addTo(sriLanka);
 
 // Adding a marker to the map
-let mapPoint = L.marker([51.5, -0.09]).addTo(mapID);
+let mapPointLondon = L.marker([51.5, -0.09]).addTo(mapID);
 
 let mapCircle = L.circle([51.508, -0.11], {
 	color: 'red',
