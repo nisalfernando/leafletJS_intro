@@ -25,3 +25,8 @@ let mapCircle = L.circle([51.508, -0.11], {
 	fillOpacity: 0.5,
 	radius: 500
 }).addTo(mapID);
+
+// Adding a polygon to the map
+let mapPointSriLanka = L.marker([7.62, 80.83]).addTo(sriLanka);
+
+
