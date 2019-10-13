@@ -19,6 +19,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 // Adding a marker to the map
 let mapPointLondon = L.marker([51.5, -0.09]).addTo(mapID);
 
+// Directions to the circle
 let mapCircle = L.circle([51.508, -0.11], {
 	color: 'red',
 	fillColor: '#f03',
@@ -29,6 +30,7 @@ let mapCircle = L.circle([51.508, -0.11], {
 // Adding a polygon to the map
 let mapPointSriLanka = L.marker([7.62, 80.83]).addTo(sriLanka);
 
+// Directions to the polygon
 let mapPolygon = L.polygon([
 	[7.612, 80.82],
 	[7.613, 80.81],
