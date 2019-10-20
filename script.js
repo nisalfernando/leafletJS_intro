@@ -1,5 +1,5 @@
+// London
 let mapID = L.map('mapid').setView([51.505, -0.09], 13);
-
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 	maxZoom: 18,
@@ -7,8 +7,8 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 	accessToken: 'pk.eyJ1IjoibmlzZmUiLCJhIjoiY2sxamptb3E0MXVkZTNjcW0zenFidDZtYiJ9.33EJv9nydb1e8lE8erN3lg'
 }).addTo(mapID);
 
+// Sri Lanka
 let sriLanka = L.map('lanka').setView([7.612026, 80.836872], 7);
-
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
 	maxZoom: 18,
