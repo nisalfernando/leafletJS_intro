@@ -18,6 +18,12 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 
 // Maldives
 let maldives = L.map('maldi').setView([-0.616204, 73.158579], 8);
+L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+	maxZoom: 18,
+	id: 'mapbox.streets',
+	accessToken: 'pk.eyJ1IjoibmlzZmUiLCJhIjoiY2sxamptb3E0MXVkZTNjcW0zenFidDZtYiJ9.33EJv9nydb1e8lE8erN3lg'
+}).addTo(maldives);
 
 // Adding a marker to the map
 let mapPointLondon = L.marker([51.5, -0.09]).addTo(mapID);
