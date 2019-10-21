@@ -16,6 +16,9 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 	accessToken: 'pk.eyJ1IjoibmlzZmUiLCJhIjoiY2sxamptb3E0MXVkZTNjcW0zenFidDZtYiJ9.33EJv9nydb1e8lE8erN3lg'
 }).addTo(sriLanka);
 
+// Maldives
+let maldives = L.map('maldi').setView([-0.616204, 73.158579], 8);
+
 // Adding a marker to the map
 let mapPointLondon = L.marker([51.5, -0.09]).addTo(mapID);
 
