@@ -10,5 +10,6 @@ Figuring out leafletJS with some of map APIs.
 *-*-* What did I learn from this project *-*-*
  --> Got the knowledge of adding a map to a web page.
  --> Learned how to use map box.
+ --> Added some custom markers.
 
 *-*-* My final thought of this project *-*-*
