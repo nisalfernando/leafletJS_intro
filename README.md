@@ -15,4 +15,4 @@ Figuring out leafletJS with some of map APIs.
 *-*-* My final thoughts of this project *-*-*
 --> It's a good framework to try. I'm not sure it's good for production.
     Should try one day.
---> You don't have to pay for some limited API calls.
+--> You don't have to pay for the limited API calls.
