@@ -12,7 +12,7 @@ Figuring out leafletJS with some of map APIs.
  --> Learned how to use map box.
  --> Added some custom markers.
 
-# *-*-* My final thoughts of this project *-*-*
+# *-*-* My final thoughts about this project *-*-*
 --> It's a good framework to try. I'm not sure it's good for production.
     Should try one day.
 --> You don't have to pay for the limited API calls.
